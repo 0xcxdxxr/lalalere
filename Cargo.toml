@@ -1,0 +1,15 @@
+[package]
+name = "lalalere"
+version = "0.1.0"
+authors = ["petit coeur <bonjour@alassanecoly.fr>"]
+edition = "2015"
+
+[lib]
+name = "lalalere"
+
+[dependencies]
+regex = "1.1.6"
+ref_thread_local = "0.0.0"
+pretty = "0.5.2"
+serde = "1.0.90"
+serde_json = "1.0.39"
