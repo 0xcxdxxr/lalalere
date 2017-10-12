@@ -1,0 +1,16 @@
+[package]
+name = "proc_callback"
+version = "0.1.0"
+authors = ["petit coeur <bonjour@alassanecoly.fr>"]
+edition = "2015"
+
+[dependencies]
+proc-macro2 = "^0.4.6"
+quote = "^0.6.3"
+syn = "^0.15.1"
+regex = "1.1.6"
+lalr_utils = { path = "../lalr_utils" }
+
+[lib]
+name = "proc_callback"
+proc-macro = true

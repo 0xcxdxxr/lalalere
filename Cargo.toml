@@ -13,6 +13,7 @@ name = "lalalere"
 regex = "1.1.6"
 ref_thread_local = "0.0.0"
 lalr_utils = { path = "src/lalr_utils" }
+proc_callback = { path = "src/proc_callback" }
 pretty = "0.5.2"
 serde = "1.0.90"
 serde_json = "1.0.39"
