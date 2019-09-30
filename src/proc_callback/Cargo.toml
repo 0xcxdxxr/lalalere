@@ -2,7 +2,7 @@
 name = "proc_callback"
 version = "0.1.0"
 authors = ["petit coeur <bonjour@alassanecoly.fr>"]
-edition = "2015"
+edition = "2018"
 
 [dependencies]
 proc-macro2 = "^0.4.6"
